@@ -3,7 +3,7 @@ const Job = (props) => {
   
     return (
         <>
-            <div class="job" className={props.className}>
+            <div className={`${props.className} job`}>
                 <h2>{props.title}</h2>
                 <div>
                     <span>{props.contractType}</span> -
